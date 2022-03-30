@@ -1,0 +1,45 @@
+/* ONLY FOR PRESENTATION */
+
+body {
+  padding: 40px;
+  background-color: #2c2c2c;
+}
+
+/* ONLY FOR PRESENTATION */
+
+.button-with-animated-border {
+  text-decoration: none;
+  font-size: 25px;
+  color: #1fe8b6;
+  padding: 20px 50px;
+  border: 3px solid #1fe8b6;
+  position: relative;
+}
+
+.button-with-animated-border::before,
+.button-with-animated-border::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: inherit;
+  transition: all .5s;
+}
+
+.button-with-animated-border::before {
+  top: -15px;
+  left: -15px;
+  border-width: 3px 0 0 3px;
+}
+
+.button-with-animated-border::after {
+  bottom: -15px;
+  right: -15px;
+  border-width: 0 3px 3px 0;
+}
+
+.button-with-animated-border:hover::before,
+.button-with-animated-border:hover::after {
+  width: calc(100% + 27px);
+  height: calc(100% + 27px);
+}

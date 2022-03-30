@@ -1,0 +1,1 @@
+Button with animated border, based on https://www.tiktok.com/@juliocodesyt/video/7079800198414798122?_t=8R2eCYHEB65&_r=1
