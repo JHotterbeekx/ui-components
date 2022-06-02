@@ -6,6 +6,5 @@ export default create({
   brandTitle: 'JHotterbeekx Storybook',
   brandUrl: 'https://storybook.hotterbeekx.nl',
   brandImage: `/${logo}`,
-  brandTarget: '_self',
-  appContentBg: 'white',
+  brandTarget: '_self'
 });
